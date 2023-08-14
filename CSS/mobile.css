@@ -1,0 +1,27 @@
+.lower-left-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-left-footer > a{
+    padding: 10px 50px;
+}
+
+.footer_rightmost{
+    padding: 20px;
+    display: block;
+}
+
+.footer-content{
+    height: fit-content;
+}
+
+.lower-footer{
+    padding: 10px;
+}
+
+.language {
+    font-size: 12px;
+} 
