@@ -1,11 +1,12 @@
 const searchInput = document.querySelector("#search-input");
 
 searchInput.addEventListener("keydown", function(event) {
-    if(event.code === "Enter" || event.code === "Tab" || event.code === "Search") {
+    var code = event.code;
+    if(code === "Enter") {
         search();
     }
      else{
-        alert("Code is :"+event.code);
+        prompt("Code is :"+code);
     }
 });
 
