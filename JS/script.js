@@ -4,6 +4,9 @@ searchInput.addEventListener("keydown", function(event) {
     if(event.code === "Enter" || event.code === "Return" || event.code === "Search") {
         search();
     }
+     else{
+        alert(event.code);
+    }
 });
 
 function search() {
