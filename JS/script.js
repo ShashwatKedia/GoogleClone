@@ -5,7 +5,7 @@ searchInput.addEventListener("keydown", function(event) {
         search();
     }
      else{
-        alert(event.code);
+        alert("Code is :"+event.code);
     }
 });
 
