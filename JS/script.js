@@ -1,7 +1,7 @@
 const searchInput = document.querySelector("#search-input");
 
 searchInput.addEventListener("keydown", function(event) {
-    if(event.code === "Enter" || event.code === "Return" || event.code === "Search") {
+    if(event.code === "Enter" || event.code === "Tab" || event.code === "Search") {
         search();
     }
      else{
