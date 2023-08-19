@@ -1,35 +1,29 @@
 
    
    /* Search Bar */
-    .search-bar {
+    .search_bar {
         width: 90%;
     }
 
-    .search-bar i {
+    .search_bar i {
         font-size: 14px;
     }
-
-    /* Buttons */
-    /* .search-btns button {
-        height: 40px;
-        font-size: 14px;
-    } */
 
     /* Footer */
     footer {
         height: 150px;
     }
 
-    .upper-footer {
+    .upper_footer {
         height: 50px;
     }
 
-    .lower-footer {
+    .lower_footer {
         height: 100px;
         flex-direction: column;
     }
 
-    .lower-left-footer {
+    .lower_left_footer {
         flex-wrap: wrap;
     }
 
