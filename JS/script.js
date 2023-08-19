@@ -15,7 +15,3 @@ function search() {
 
     window.location.href = "https://www.google.com/search?client=safari&rls=en&q="+input+"&ie=UTF-8&oe=UTF-8"; 
 }
-
-searchInput.addEventListener("keypress", function(event){
-    if(event.keyCode === 13) alert('Enter');
-});
