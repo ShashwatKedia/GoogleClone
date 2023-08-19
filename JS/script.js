@@ -1,4 +1,4 @@
-const searchInput = document.querySelector("#search-input");
+const searchInput = document.querySelector("#search_input");
 
 searchInput.addEventListener("keydown", function(event) {
     var code = event.code;
